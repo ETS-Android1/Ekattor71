@@ -5,5 +5,5 @@ we developed the ekattor71 Android application for our academic project to fulfi
 |![Splash screen](images/img11.jpeg) | ![Dashbord](images/img12.jpeg)|
 |------------------------------------|-------------------------------| 
 
-
-
+|<img src="images/img13.jpeg" alt="drawing" width="250px"/>|<img src="images/img14.jpeg" alt="drawing" width="250px"/>|<img src="images/img15.jpeg" alt="drawing" width="250px"/>|
+|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
