@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sector1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <ImageView
+                android:id="@+id/secImg"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/sector_2"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/secImg"
+                android:layout_marginTop="-16dp"
+                android:text="২ নং সেক্টর "
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:textColor="#F50057"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="সেক্টর এলাকা"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text="	নোয়াখালী জেলা, কুমিল্লা জেলার আখাউড়া - ভৈরব রেললাইন পর্যন্ত এবং ফরিদপুর ও ঢাকার অংশবিশেষ"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="সেক্টর কমান্ডার"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/s_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text="• মমেজর খালেদ মোশাররফ (১০ এপ্রিল, ১৯৭১ হতে ২২ সেপ্টেম্বর, ১৯৭১)\n
+• মেজর এ.টি.এম. হায়দার (২২ সেপ্টেম্বর, ১৯৭১ হতে ১৪ ফেব্রুয়ারি, ১৯৭২)"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="সাবসেক্টর কমান্ডার"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="30"
+                    android:text="১.গঙ্গাসাগর,আখাউড়া এবং কসবা(মাহবুব,লেফটেন্যান্ট ফারুক এবং লেফটেন্যান্ট হুমায়ুন কবির)\n
+২.মন্দাভব (ক্যাপ্টেন গফর)\n
+৩.সালদা-নদী (মাহমুদ হাসান)\n
+৪.মতিনগর (লেফটেন্যান্ট দিদারুল আলম)\n
+৫.নির্ভয়পুর (	ক্যাপ্টেন আকবর,লেফটেন্যান্ট মাহবুব)\n
+৬.রাজনগর (ক্যাপ্টেন জাফর ইমাম,ক্যাপ্টেন শহীদ,লেফটেন্যান্ট ইমামুজ্জামান)"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

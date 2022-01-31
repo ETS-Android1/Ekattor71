@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/appbar_layout"
+        android:layout_height="200dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar_android_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="@dimen/expanded_toolbar_title_margin_start"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/ban_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ban_motiur"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.7" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/bir_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/bir_nestedscrollview"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/matiur"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="জন্ম"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text="২৯ অক্টোবর ১৯৪১ ঢাকা, বঙ্গ, ব্রিটিশ ভারত (বর্তমান বাংলাদেশ))"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="মৃত্যু"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text="	২০ আগস্ট ১৯৭১ (বয়স ২৯) থাট্টা, পশ্চিম পাকিস্তান"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="পদমর্যাদা"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text=" ফ্লাইট লেফটেন্যান্ট "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="ইউনিট"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E0F7FA"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="20"
+                    android:text="	নম্বর. ২ স্কোয়াড্রন"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="যুদ্ধ/সংগ্রাম"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="20"
+                    android:text="ভারত-পাকিস্তান যুদ্ধ ১৯৬৫ বাংলাদেশ মুক্তিযুদ্ধ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="পুরস্কার"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text=" বীর শ্রেষ্ঠ "
+
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="ভূমিকা"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="1000"
+                    android:text="মতিউর রহমান ১৯৪১ সালের ২৯ অক্টোবর পুরান ঢাকার ১০৯, আগা সাদেক রোডের 'মোবারক লজ'-এ জন্মগ্রহণ করেন। তার পৈতৃক নিবাস নরসিংদী জেলার রায়পুরা থানার রামনগর গ্রামে। যা এখন মতিনগর নামে পরিচিত। ৯ ভাই ও ২ বোনের মধ্যে তিনি ছিলেন ৬ষ্ঠ।  ঢাকা কলেজিয়েট স্কুল থেকে ষষ্ঠ শ্রেণী পাস করার পর সারগোদায় পাকিস্তান বিমান বাহিনী পাবলিক স্কুলে ভর্তি হন। ডিস্টিংকশনসহ মেট্রিক পরীক্ষায় সাফল্যের সাথে প্রথম বিভাগে উত্তীর্ণ হন।মতিউর রহমান ১৯৬১ সালে পাকিস্তান বিমান বাহিনীতে যোগ দেন। ১৯৬৩ সালে রিসালপুর পি,এ,এফ কলেজ থেকে পাইলট অফিসার হিসেবে কমিশন লাভ করেন।১৯৭১ সালের শুরুতে জানুয়ারির শেষ সপ্তাহে মতিউর রহমান সপরিবারে ঢাকা্য় দুই মাসের ছুটিতে আসেন। ২৫ মার্চের কালরাতে তিনি ছিলেন নরসিংদীর রায়পুরার রামনগর গ্রামে৷ যুদ্ধ শুরু হয়ে গেলে, পাকিস্তান বিমান বাহিনীর একজন ফ্লাইট লেফটেন্যান্ট হয়েও অসীম ঝুঁকি ও সাহসিকতার সাথে ভৈরবে একটি ট্রেনিং ক্যাম্প খুললেন৷ যুদ্ধ করতে আসা বাঙালি যুবকদের প্রশিক্ষণ দিতে থাকলেন ৷ "
+
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="সমাধি"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/som_motiur" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="60dp"
+                    android:gravity="left"
+
+                    android:maxLines="50"
+                    android:text=" পাকিস্তান সরকার মতিউর রহমানের মৃতদেহ করাচির মাসরুর বেসের চতুর্থ শ্রেণীর কবরস্থানে সমাহিত করে। পরবর্তীতে বাংলাদেশ স্বাধীন হয়ার পর, ২০০৬ সালের ২৪ জুন মতিউর রহমানের দেহাবশেষ পাকিস্তান হতে বাংলাদেশে ফিরিয়ে আনা হয়[৩]। তাঁকে পূর্ণ মর্যাদায় ২৫শে জুন শহীদ বুদ্ধিজীবী গোরস্থানে পুনরায় দাফন করা হয়।"
+
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

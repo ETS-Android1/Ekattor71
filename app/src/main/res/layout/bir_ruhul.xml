@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/appbar_layout"
+        android:layout_height="200dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar_android_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="@dimen/expanded_toolbar_title_margin_start"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/ban_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ban_ruhulamin"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.7" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/bir_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/bir_nestedscrollview"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ruhul_amin"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="জন্ম"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text=" ১৯৩৫ বাঘপাঁচড়া গ্রাম, নোয়াখালী "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="মৃত্যু"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text=" ১০ ডিসেম্বর ১৯৭১ (বয়স ৩৫–৩৬)"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="পদমর্যাদা"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text="ইঞ্জিনরুম আর্টিফিসার "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="যুদ্ধ/সংগ্রাম"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="20"
+                    android:text="বাংলাদেশের স্বাধীনতা যুদ্ধ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="পুরস্কার"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="5"
+                    android:text=" বীর শ্রেষ্ঠ "
+
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="ভূমিকা"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="1000"
+                    android:text="মোহাম্মদ রুহুল আমিন ১৯৩৫ সালে নোয়াখালী জেলার সোনাইমুড়ি উপজেলার বাঘপাঁচড়া গ্রামে জন্মগ্রহণ করেন। তাঁর পিতা আজহার পাটোয়ারী এবং মায়ের নাম জোলেখা খাতুন।তিনি ছিলেন বাবা মায়ের প্রথম সন্তান। তাঁরা ছিলেন ছয় ভাইবোন। তিনি বাঘচাপড়া প্রাথমিক বিদ্যালয়ে পড়াশোনা শেষ করে আমিষাপাড়া উচ্চ বিদ্যালয়ে ভর্তি হন। এখান থেকে এসএসসি পাশ করে ১৯৫৩ সালে জুনিয়র মেকানিক্যাল ইঞ্জিনিয়ার হিসাবে পাকিস্তান নৌবাহিনীতে যোগদান করেন। মোহাম্মদ রুহুল আমিন পাকিস্তান নৌবাহিনীতে যোগ দেয়ার পর প্রাথমিক প্রশিক্ষণ নেয়ার জন্য তিনি যান করাচির নিকটবর্তী আরব সাগরে মধ্যে অবস্থিত মানোরা দ্বীপে পাকিস্তানি নৌঘাঁটি (পি.এন.এস) বাহাদুরে। প্রাথমিক প্রশিক্ষণ গ্রহণের পর সেখান থেকে পি.এন.এস. কারসাজে যোগদান করেন। ১৯৬৫ সালে মেকানিসিয়ান কোর্সের জন্য নির্বাচিত হন। পি.এন.এস. কারসাজে কোর্স সমাপ্ত করার পর আর্টিফিসার পদে নিযুক্ত হন। ১৯৬৮ সালে চট্টগ্রাম পি.এন.এস. বখতিয়ার নৌঘাঁটিতে বদলি হয়ে যান। ১৯৭১ সালের এপ্রিলে ঘাঁটি থেকে পালিয়ে যান। ১৯৭১ সালের মার্চে রুহুল আমিন চট্টগ্রামে কর্মরত ছিলেন৷ একদিন সবার অলক্ষ্যে সকলের চোখকে ফাঁকি দিয়ে বের হয়ে পড়েন নৌঘাঁটি থেকে৷ পালিয়ে সীমান্ত পার হয়ে তিনি চলে যান ত্রিপুরা৷ যোগ দেন ২ নং সেক্টরে৷ মেজর শফিউল্লাহের নেতৃত্বে ২ নং সেক্টরে তিনি সেপ্টেম্বর মাস পর্যন্ত মুক্তিযুদ্ধে সক্রিয়ভাবে অংশগ্রহণ করেন এবং স্থলযুদ্ধের বিভিন্ন অভিযানে যোগ দেন৷"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#82B1FF">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="সমাধি"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E0F7FA">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/som_ruhulamin"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="left"
+
+                    android:maxLines="40"
+
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

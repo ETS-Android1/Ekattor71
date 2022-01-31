@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mns.ekattor"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_luncher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AudioGllaey"></activity>
+        <activity android:name=".NewsReference" />
+        <activity android:name=".Document" />
+        <activity android:name=".Spalash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DistrictList" />
+        <activity android:name=".DiaryDetails" />
+        <activity android:name=".GonokobrDetiels" />
+        <activity android:name=".HistoryDetails" />
+        <activity android:name=".AboutApp" />
+        <activity android:name=".Date" />
+        <activity android:name=".CalMonth" />
+        <activity android:name=".PhotoGallaryGlide" />
+        <activity android:name=".HistoryList" />
+        <activity android:name=".Gonokobor" />
+        <activity android:name=".Sector1" />
+        <activity android:name=".SectorList" />
+        <activity android:name=".Birshrastho" />
+        <activity android:name=".BirDetails" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

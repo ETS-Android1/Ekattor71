@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gonokobor">
+        <item>শহীদ বুদ্ধিজীবী স্মৃতিসৌধ(রায়ের বাজার)</item>
+        <item>১৯৭১ বুদ্ধিজীবী গণহত্যা</item>
+        <item>১৯৭১ ঢাকা বিশ্ববিদ্যালয় গণহত্যা</item>
+        <item>অপরাজেয় বাংলা</item>
+        <item>স্বাধীনতার সংগ্রাম</item>
+        <item>জাগ্রত চৌরঙ্গী</item>
+        <item>রহনপুর শহীদ মুক্তিযোদ্ধাদের গণকবর</item>
+        <item>খুনিয়া দিঘী বধ্যভূমি</item>
+        <item>গল্লামারী বধ্যভূমি</item>
+        <item>জল্লাদখানা বধ্যভূমি</item>
+        <item>ডলুরা গণকবর</item>
+        <item>জাঠিভাঙ্গা গণহত্যা </item>
+        <item>শহীদপাড়া বধ্যভূমি</item>
+        <item>থানাপাড়া বধ্যভূমি</item>
+        <item>সিলেট ক্যাডেট কলেজ বাধ্যভূমি</item>
+        <item>চুকনগর বধ্যভূমি</item>
+        <item>কীর্তনখোলা বধ্যভূমি</item>
+        <item>অপারেশন খরচাখাতা</item>
+        <item>গোপালপুর গণহত্যা</item>
+        <item>শ্রীমঙ্গলের বধ্যভূমি ’৭১</item>
+    </string-array>
+
+
+    <string-array name="jun_feb">
+        <item>@string/jan_04</item>
+        <item>@string/jan_15</item>
+        <item>@string/jan_31</item>
+        <item>@string/feb_05</item>
+        <item>@string/feb_09</item>
+        <item>@string/feb_14</item>
+        <item>@string/feb_15</item>
+        <item>@string/feb_16</item>
+        <item>@string/feb_21</item>
+        <item>@string/feb_25</item>
+        <item>@string/feb_28</item>
+    </string-array>
+    <string-array name="date_jun_feb">
+        <item> ৪ জানুয়ারি ১৯৭১</item>
+        <item> ১৫ জানুয়ারি ১৯৭১</item>
+        <item> ৩১ জানুয়ারি ১৯৭১</item>
+        <item> ০৫ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ০৯ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ১৪ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ১৫ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ১৬ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ২১ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ২৫ ফ্রেবুয়ারী ১৯৭১</item>
+        <item> ফ্রেবুয়ারী ১৯৭১</item>
+    </string-array>
+    <string-array name="march_before_wer">
+        <item>@string/mar_01</item>
+        <item>@string/mar_02</item>
+        <item>@string/mar_03</item>
+        <item>@string/mar_04</item>
+        <item>@string/mar_05</item>
+        <item>@string/mar_06</item>
+        <item>@string/mar_07</item>
+        <item>@string/mar_08</item>
+        <item>@string/mar_09</item>
+        <item>@string/mar_10</item>
+        <item>@string/mar_11</item>
+        <item>@string/mar_12</item>
+        <item>@string/mar_13</item>
+        <item>@string/mar_14</item>
+        <item>@string/mar_15</item>
+        <item>@string/mar_16</item>
+        <item>@string/mar_17</item>
+    </string-array>
+    <string-array name="march_inware">
+        <item>@string/mar_19</item>
+        <item>@string/mar_20</item>
+        <item>@string/mar_21</item>
+        <item>@string/mar_22</item>
+        <item>@string/mar_23</item>
+        <item>@string/mar_25</item>
+        <item>@string/mar_26</item>
+        <item>@string/mar_27</item>
+        <item>@string/mar_28</item>
+        <item>@string/mar_29</item>
+        <item>@string/mar_30</item>
+        <item>@string/mar_31</item>
+    </string-array>
+    <string-array name="date_march_before_war">
+        <item> ১ মার্চ ১৯৭১</item>
+        <item> ০২ মার্চ ১৯৭১</item>
+        <item> ০৩ মার্চ ১৯৭১</item>
+        <item> ০৪ মার্চ ১৯৭১</item>
+        <item> ০৫ মার্চ ১৯৭১</item>
+        <item> ০৬ মার্চ ১৯৭১</item>
+        <item> ০৭ মার্চ ১৯৭১</item>
+        <item> ০৮ মার্চ ১৯৭১</item>
+        <item> ০৯ মার্চ ১৯৭১</item>
+        <item> ১০ মার্চ ১৯৭১</item>
+        <item> ১১ মার্চ ১৯৭১</item>
+        <item> ১২ মার্চ ১৯৭১</item>
+        <item> ১৩ মার্চ ১৯৭১</item>
+        <item> ১৪ মার্চ ১৯৭১</item>
+        <item> ১৫ মার্চ ১৯৭১</item>
+        <item> ১৬ মার্চ ১৯৭১</item>
+        <item> ১৭ মার্চ ১৯৭১</item>
+    </string-array>
+    <string-array name="date_march_inwar">
+        <item> ১৯ মার্চ ১৯৭১</item>
+        <item> ২০ মার্চ ১৯৭১</item>
+        <item> ২১ মার্চ ১৯৭১</item>
+        <item> ২২ মার্চ ১৯৭১</item>
+        <item> ২৩ মার্চ ১৯৭১</item>
+        <item> ২৫ মার্চ ১৯৭১</item>
+        <item> ২৬ মার্চ ১৯৭১</item>
+        <item> ২৭ মার্চ ১৯৭১</item>
+        <item> ২৮ মার্চ ১৯৭১</item>
+        <item> ২৯ মার্চ ১৯৭১</item>
+        <item> ৩০ মার্চ ১৯৭১</item>
+        <item> ৩১ মার্চ ১৯৭১</item>
+    </string-array>
+    <string-array name="april_may">
+        <item>@string/apr_02</item>
+        <item>@string/apr_06</item>
+        <item>@string/apr_10</item>
+        <item>@string/apr_11</item>
+        <item>@string/apr_12</item>
+        <item>@string/apr_17</item>
+        <item>@string/apr_18</item>
+        <item>@string/apr_24</item>
+        <item>@string/apr_28</item>
+        <item>@string/may_05</item>
+        <item>@string/may_15</item>
+        <item>@string/may_20</item>
+        <item>@string/may_24</item>
+
+    </string-array>
+    <string-array name="date_april_may">
+        <item>এপ্রিল ২ ১৯৭১</item>
+        <item>এপ্রিল ৬ ১৯৭১</item>
+        <item>এপ্রিল ১০ ১৯৭১</item>
+        <item>এপ্রিল ১১ ১৯৭১</item>
+        <item>এপ্রিল ১২ ১৯৭১</item>
+        <item>এপ্রিল ১৭ ১৯৭১</item>
+        <item>এপ্রিল ১৮ ১৯৭১</item>
+        <item>এপ্রিল ২৪ ১৯৭১</item>
+        <item>এপ্রিল ২৮ ১৯৭১</item>
+        <item>মে ৫ ১৯৭১</item>
+        <item>মে ১৫ ১৯৭১</item>
+        <item>মে ২০ ১৯৭১</item>
+        <item>মে ২৪ ১৯৭১</item>
+
+    </string-array>
+    <string-array name="july_aug_sep">
+        <item>@string/jul_11_17</item>
+        <item>@string/aug_01</item>
+        <item>@string/aug_16</item>
+        <item>@string/aug_20</item>
+        <item>@string/aug_30</item>
+        <item>@string/sep_05</item>
+        <item>@string/sep_28</item>
+
+    </string-array>
+    <string-array name="date_july_aug_sep">
+        <item>জুলাই ১১-১৭ ১৯৭১</item>
+        <item>অগাস্ট ১ ১৯৭১</item>
+        <item>অগাস্ট ১৬ ১৯৭১</item>
+        <item>অগাস্ট ২০ ১৯৭১</item>
+        <item>অগাস্ট ৩০ ১৯৭১</item>
+        <item>সেপ্টেম্বর ৫ ১৯৭১</item>
+        <item>সেপ্টেম্বর ২৮ ১৯৭১</item>
+
+    </string-array>
+    <string-array name="oct_nov">
+        <item>@string/oct_13</item>
+        <item>@string/oct_28</item>
+        <item>@string/oct_31</item>
+        <item>@string/nov_09</item>
+        <item>@string/nov_16</item>
+        <item>@string/nov_20</item>
+        <item>@string/nov_21</item>
+        <item>@string/nov_22</item>
+
+    </string-array>
+    <string-array name="date_oct_nov">
+        <item>অক্টোবর ১৩ ১৯৭১</item>
+        <item>অক্টোবর ২৮ ১৯৭১</item>
+        <item>অক্টোবর ৩১ ১৯৭১</item>
+        <item>নভেম্বর ৯ ১৯৭১</item>
+        <item>নভেম্বর ১৬ ১৯৭১</item>
+        <item>নভেম্বর ২০ ১৯৭১</item>
+        <item>নভেম্বর ২১ ১৯৭১</item>
+        <item>নভেম্বর ২২ ১৯৭১</item>
+
+    </string-array>
+    <string-array name="Dec">
+        <item>@string/Dec_03</item>
+        <item>@string/Dec_04</item>
+        <item>@string/Dec_05</item>
+        <item>@string/Dec_06</item>
+        <item>@string/Dec_07</item>
+        <item>@string/Dec_08</item>
+        <item>@string/Dec_09</item>
+        <item>@string/Dec_10</item>
+        <item>@string/Dec_11</item>
+        <item>@string/Dec_13</item>
+        <item>@string/Dec_14</item>
+        <item>@string/Dec_16</item>
+        <item>@string/Dec_22</item>
+
+    </string-array>
+    <string-array name="date_Dec">
+        <item>ডিসেম্বর ৩ ১৯৭১</item>
+        <item>ডিসেম্বর ৪ ১৯৭১</item>
+        <item>ডিসেম্বর ৫ ১৯৭১</item>
+        <item>ডিসেম্বর ৬ ১৯৭১</item>
+        <item>ডিসেম্বর ৭ ১৯৭১</item>
+        <item>ডিসেম্বর ৮ ১৯৭১</item>
+        <item>ডিসেম্বর ৯ ১৯৭১</item>
+        <item>ডিসেম্বর ১০ ১৯৭১</item>
+        <item>ডিসেম্বর ১১ ১৯৭১</item>
+        <item>ডিসেম্বর ১৩ ১৯৭১</item>
+        <item>ডিসেম্বর ১৪ ১৯৭১</item>
+        <item>ডিসেম্বর ১৬ ১৯৭১</item>
+        <item>ডিসেম্বর ২২ ১৯৭১</item>
+
+    </string-array>
+
+</resources>
