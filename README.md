@@ -1,6 +1,8 @@
 # Ekattor Android Application 
-we develope ekattor71 Android application our academic project to fullfill requerment of 3rd year 2nd semester. This application based on libaration war between Pakisten and bangladesh (East Pakisten). Our main purpose to develope this app to put all information so that people`s know accurate information about the war.
+we developed the ekattor71 Android application for our academic project to fulfill the requirement of the 3rd-year 2nd semester. This application is based on the liberation war between Pakistan and Bangladesh (East Pakistan). Our main purpose is to develop this app to put all information so that people know accurate information about the war.
 ## We divide whole information in some sub-section
-### Splash seen and Dashbord
-|![Splash sceen](images/img11.jpeg)| ![Dashbord](images/img12.jpeg)| 
-|----------------------------------|--------------------------------|
+### Splash screen and Dashbord
+![Splash screen](images/img11.jpeg =x800) ![Dashbord](images/img12.jpeg) 
+
+
+
