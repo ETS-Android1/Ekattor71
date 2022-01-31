@@ -4,10 +4,11 @@ we developed the ekattor71 Android application for our academic project to fulfi
 ### Splash screen and Dashbord
 |![Splash screen](images/img11.jpeg) | ![Dashbord](images/img12.jpeg)| ![Dashbord](images/img118.jpeg)|
 |------------------------------------|-------------------------------|--------------------------------| 
+### More snapshoot
 
-|<img src="images/img13.jpeg" alt="drawing" width="250px"/>|<img src="images/img14.jpeg" alt="drawing" width="250px"/>|<img src="images/img15.jpeg" alt="drawing" width="250px"/>|
-|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
-|<img src="images/img16.jpeg" alt="drawing" width="250px"/>|<img src="images/img17.jpeg" alt="drawing" width="250px"/>|<img src="images/img18.jpeg" alt="drawing" width="250px"/>|
+|<img src="images/img13.jpeg" alt="drawing" width="250px"/>|<img src="images/img14.jpeg" alt="drawing" width="250px"/>|
+|----------------------------------------------------------|----------------------------------------------------------|
+|<img src="images/img16.jpeg" alt="drawing" width="250px"/>|<img src="images/img17.jpeg" alt="drawing" width="250px"/>|<img src="images/img118.jpeg" alt="drawing" width="250px"/>|
 |<img src="images/img19.jpeg" alt="drawing" width="250px"/>|<img src="images/img110.jpeg" alt="drawing" width="250px"/>|<img src="images/img111.jpeg" alt="drawing" width="250px"/>|
 
 |<img src="images/img112.jpeg" alt="drawing" width="250px"/>|<img src="images/img113.jpeg" alt="drawing" width="250px"/>|<img src="images/img114.jpeg" alt="drawing" width="250px"/>|
